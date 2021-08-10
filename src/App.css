@@ -1,5 +1,4 @@
-.App
-{
+.App {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,21 +15,22 @@
   background-color: gray;
 }
 
-input:focus, button:focus, textarea:focus{
-  outline: none;
-}
-
-.buttons
-{
+.buttons {
   grid-template-rows: repeat(5, 50px);
   grid-template-columns: repeat(4, 80px);
   gap: 1px;
 }
 
-#zero-button
-{
-  grid-column: 1/3;
-}
 button {
   border: none;
+}
+
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+#zero-button {
+  grid-column: 1/3;
 }
