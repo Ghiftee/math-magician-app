@@ -8,7 +8,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ghiftee.github.io/To-do-list/dist/)
+[Live Demo Link](https://ghiftee.github.io/my-app/)
 
 ## Milestone 1: Setup
 - In this milestone, I created a new React App using CRA.
