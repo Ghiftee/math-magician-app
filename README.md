@@ -10,7 +10,7 @@
 
 [Live Demo Link](https://ghiftee.github.io/To-do-list/dist/)
 
-## Milestone 1: Math Magician set-up
+## Milestone 1: Setup
 - In this milestone, I created a new React App using CRA.
 - To get started with CRA, see more information below:
 
