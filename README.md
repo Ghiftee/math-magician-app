@@ -56,10 +56,17 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - Create a directory called components
 - Create Calculator file with a React component that matches the given UI
 
+## Milestone 3: Events
+- Create logic directory
+- Copy the files calculate.js and operate.js into a logic directory
+- Import the files in previously created Calculator component
+- Implement event handlers needed to use the math logic from calculate.js and operate.js
+- Practice using state and lift state up
+
 ## Built With
 - React, Bootstrap, Webpack, Javascript, Babel and Jest
 
-## Math Magician Author
+## Author
 👤 **Gift Uwhubetine**
 
 - GitHub: [@githubhandle](https://github.com/ghiftee)
