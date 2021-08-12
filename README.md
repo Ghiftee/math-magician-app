@@ -63,6 +63,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - Implement event handlers needed to use the math logic from calculate.js and operate.js
 - Practice using state and lift state up
 
+## Milestone 4: Refactor with hooks
+- Refactor Calculator component from a class based component to a functional component with hooks.
+
 ## Built With
 - React, Bootstrap, Webpack, Javascript, Babel and Jest
 
