@@ -1,10 +1,13 @@
-.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
+.mr-20 {
+  margin-right: 20px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.border-right {
+  border-right: 1px solid black;
 }
 
 .text-right {
