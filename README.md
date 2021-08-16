@@ -68,6 +68,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Milestone 4: Refactor with hooks
 - Refactor Calculator component from a class based component to a functional component with hooks.
 
+## Milestone 5: Full Website
+- Create a website consisting of 3 pages: Home, Calculator, and Quote matching the given wireframe
+- Add styles using React basic styling
+- Create a Route for each page
+- Use Route Router to make the route for each page work
+
 ## Built With
 - React, Bootstrap, Webpack, Javascript, Babel and Jest
 
