@@ -4,7 +4,9 @@
 
 > This project is a calculator app built using React
 
-![screenshot](src/images/Math-magician.png)
+![screenshot](src/images/Homepage.png)
+![screenshot](src/images/Calcultor.png)
+![screenshot](src/images/Quotes.png)
 
 ## Live Demo
 
