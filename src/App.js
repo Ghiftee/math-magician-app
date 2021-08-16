@@ -17,20 +17,19 @@ function App() {
           style={{
             display: 'flex',
             justifyContent: 'space-between',
-            alignItems: 'center',
             padding: '20px',
           }}
         >
           <h1>Math Magicians</h1>
           <nav>
-            <Link className="p-10 border-right" to="/">Home</Link>
-            <Link className="p-10 border-right" to="/calculator">Calculator</Link>
-            <Link className="p-10" to="/quote">Quote</Link>
+            <Link className="p-10 border border-dark mr-20 mt-5 text-decoration-none menu-focus" to="/">Home</Link>
+            <Link className="p-10 border border-dark mr-20 mt-5 text-decoration-none menu-focus" to="/calculator">Calculator</Link>
+            <Link className="p-10 border border-dark mt-5 text-decoration-none" to="/quote">Quote</Link>
           </nav>
         </header>
         <main
           style={{
-            padding: '0px 20px',
+            padding: '0px 70px',
           }}
         >
           <Switch>

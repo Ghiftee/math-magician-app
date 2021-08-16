@@ -1,7 +1,14 @@
 export default function Home() {
   return (
     <div>
-      <h2>Welcome to our Page!</h2>
+      <h2
+        style={{
+          marginBottom: '20px',
+          marginTop: '50px',
+        }}
+      >
+        Welcome to our Page!
+      </h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id mattis felis.
         Nam accumsan leo justo. In convallis tellus sit amet iaculis tincidunt.

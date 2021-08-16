@@ -9,10 +9,7 @@ export default function CalcPage() {
         padding: '20px',
       }}
     >
-      <div style={{
-        marginRight: '20px',
-      }}
-      >
+      <div>
         <h4>Let&apos;s do some math!</h4>
       </div>
       <Calculator />

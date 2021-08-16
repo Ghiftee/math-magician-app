@@ -1,17 +1,26 @@
+body{
+  font-family: cursive;
+}
+
 .mr-20 {
   margin-right: 20px;
+}
+
+.mt-5 {
+  margin-top: 10px;
 }
 
 .p-10 {
   padding: 10px;
 }
 
-.border-right {
-  border-right: 1px solid black;
-}
-
 .text-right {
   text-align: right;
+}
+
+a:focus {
+  color: black;
+  font-weight: bold;
 }
 
 .bg-gray {
