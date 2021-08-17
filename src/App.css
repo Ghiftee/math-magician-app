@@ -1,14 +1,26 @@
-.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
+body {
+  font-family: cursive;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mt-5 {
+  margin-top: 10px;
+}
+
+.p-10 {
+  padding: 10px;
 }
 
 .text-right {
   text-align: right;
+}
+
+a:focus {
+  color: black;
+  font-weight: bold;
 }
 
 .bg-gray {
