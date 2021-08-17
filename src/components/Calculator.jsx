@@ -7,10 +7,26 @@ export default function Calculator() {
     operation: null,
     next: null,
     total: null,
+    error: null,
   });
   const buttonClicked = (e) => {
+    const { error } = calc;
+    if (error) {
+      setValues({ ...calc, error: null });
+    }
     const buttonName = e.target.innerText;
-    const result = calculate(calc, buttonName);
+    let result;
+    try {
+      result = calculate(calc, buttonName);
+    } catch (err) {
+      setValues({
+        operation: null,
+        next: null,
+        total: 0,
+        error: err,
+      });
+      return;
+    }
 
     const { operation, next, total } = calc;
     setValues({
@@ -19,10 +35,10 @@ export default function Calculator() {
       total: ((result.total === undefined) ? total : result.total),
     });
   };
-  const { next, total } = calc;
+  const { next, total, error } = calc;
   return (
     <div id="calculator">
-      <input className="text-right border-0 bg-gray text-white p-1 py-3 w-100" value={next || (total || 0)} readOnly />
+      <input className="text-right border-0 bg-gray text-white p-1 py-3 w-100" value={error || next || (total || 0)} readOnly />
       <div className="buttons d-grid bg-gray">
         <button type="button" onClick={buttonClicked}>AC</button>
         <button type="button" onClick={buttonClicked}>+/-</button>
