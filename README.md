@@ -74,8 +74,13 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - Create a Route for each page
 - Use Route Router to make the route for each page work
 
+## Milestone 6: Tests
+- Set up React testing library
+- Write unit tests for operate.js and calculate.js using Jest
+- Create unit tests for components using Jest Snapshots and React Testing Library
+
 ## Built With
-- React, Bootstrap, Webpack, Javascript, Babel and Jest
+- React, Bootstrap, Webpack, Javascript, React testing library, Babel and Jest
 
 ## Author
 👤 **Gift Uwhubetine**
