@@ -14,7 +14,7 @@ export default function Calculator() {
     if (error) {
       setValues({ ...calc, error: null });
     }
-    const buttonName = e.target.innerText;
+    const buttonName = e.target.innerText || e.target.innerHTML;
     let result;
     try {
       result = calculate(calc, buttonName);
