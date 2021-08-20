@@ -10,7 +10,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://ghiftee.github.io/my-app/)
+[Live Demo Link](https://ghiftee.github.io/math-magician-app/)
 
 ## Milestone 1: Setup
 - In this milestone, I created a new React App using CRA.
