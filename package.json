@@ -1,6 +1,6 @@
 {
   "homepage": "http://ghiftee.github.io/math-magician-app",
-  "name": "my-app",
+  "name": "math-magician-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
