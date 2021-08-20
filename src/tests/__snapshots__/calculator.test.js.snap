@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect calculator element to match working snapshot 1`] = `
+<div
+  id="calculator"
+>
+  <input
+    className="text-right border-0 bg-gray text-white p-1 py-3 w-100"
+    readOnly={true}
+    value={0}
+  />
+  <div
+    className="buttons d-grid bg-gray"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="bg-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="bg-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="bg-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="bg-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      id="zero-button"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="bg-warning"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;
+
+exports[`expect calculator page to match working snapshot 1`] = `
+<div
+  style={
+    Object {
+      "display": "flex",
+      "justifyContent": "space-between",
+      "padding": "20px",
+    }
+  }
+>
+  <div>
+    <h4>
+      Let's do some math!
+    </h4>
+  </div>
+  <div
+    id="calculator"
+  >
+    <input
+      className="text-right border-0 bg-gray text-white p-1 py-3 w-100"
+      readOnly={true}
+      value={0}
+    />
+    <div
+      className="buttons d-grid bg-gray"
+    >
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        %
+      </button>
+      <button
+        className="bg-warning"
+        onClick={[Function]}
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        7
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        8
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        9
+      </button>
+      <button
+        className="bg-warning"
+        onClick={[Function]}
+        type="button"
+      >
+        x
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        5
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        6
+      </button>
+      <button
+        className="bg-warning"
+        onClick={[Function]}
+        type="button"
+      >
+        -
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="bg-warning"
+        onClick={[Function]}
+        type="button"
+      >
+        +
+      </button>
+      <button
+        id="zero-button"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        onClick={[Function]}
+        type="button"
+      >
+        .
+      </button>
+      <button
+        className="bg-warning"
+        onClick={[Function]}
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`expect home page to match working snapshot 1`] = `
+<div>
+  <h2
+    style={
+      Object {
+        "marginBottom": "20px",
+        "marginTop": "50px",
+      }
+    }
+  >
+    Welcome to our Page!
+  </h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id mattis felis. Nam accumsan leo justo. In convallis tellus sit amet iaculis tincidunt. Ut quis porttitor ante. Maecenas nec suscipit ex. Vivamus non sapien nisl. Vestibulum nisi tortor, cursus at feugiat quis, consequat mattis enim. Maecenas blandit lobortis erat, eget elementum massa ultricies in. Curabitur vestibulum porttitor nisl, nec efficitur mauris lobortis a. Curabitur iaculis gravida pulvinar. Sed vel dictum metus, consectetur consectetur lorem. Maecenas tellus est, congue vitae tellus hendrerit, consequat mattis lacus. Proin a ex ac magna venenatis lacinia at a leo. Suspendisse luctus dapibus elit, sit amet varius ligula. Aliquam vitae lectus vitae massa fermentum bibendum a eu ligula.
+    <br />
+    <br />
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id mattis felis. Nam accumsan leo justo. In convallis tellus sit amet iaculis tincidunt. Ut quis porttitor ante. Maecenas nec suscipit ex. Vivamus non sapien nisl. Vestibulum nisi tortor, cursus at feugiat quis, consequat mattis enim. Maecenas blandit lobortis erat, eget elementum massa ultricies in. Curabitur vestibulum porttitor nisl, nec efficitur mauris lobortis a. Curabitur iaculis gravida pulvinar. Sed vel dictum metus, consectetur consectetur lorem. Maecenas tellus est, congue vitae tellus hendrerit, consequat mattis lacus. Proin a ex ac magna venenatis lacinia at a leo. Suspendisse luctus dapibus elit, sit amet varius ligula. Aliquam vitae lectus vitae massa fermentum bibendum a eu ligula.
+  </p>
+</div>
+`;

@@ -1,12 +1,30 @@
-# Getting Started with Create React App
+![](https://camo.githubusercontent.com/8a4ae3fb98faf74ddf78a6677ceaa6e8872f7f340f569b7c5e1aa9bcc4061d95/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d6963726f76657273652d626c756576696f6c6574)
+
+# Math Magician App
+
+> This project is a calculator app built using React
+
+![screenshot](src/images/Homepage.png)
+![screenshot](src/images/Calcultor.png)
+![screenshot](src/images/Quotes.png)
+
+## Live Demo
+
+[Live Demo Link](https://ghiftee.github.io/math-magician-app/)
+
+## Milestone 1: Setup
+- In this milestone, I created a new React App using CRA.
+- To get started with CRA, see more information below:
+
+#### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +32,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+#### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -29,42 +47,58 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Milestone 2: Components
+- Delete all the boilerplate from CRA (text, images, styles)
+- Create a directory called components
+- Create Calculator file with a React component that matches the given UI
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Milestone 3: Events
+- Create logic directory
+- Copy the files calculate.js and operate.js into a logic directory
+- Import the files in previously created Calculator component
+- Implement event handlers needed to use the math logic from calculate.js and operate.js
+- Practice using state and lift state up
 
-### Analyzing the Bundle Size
+## Milestone 4: Refactor with hooks
+- Refactor Calculator component from a class based component to a functional component with hooks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Milestone 5: Full Website
+- Create a website consisting of 3 pages: Home, Calculator, and Quote matching the given wireframe
+- Add styles using React basic styling
+- Create a Route for each page
+- Use Route Router to make the route for each page work
 
-### Making a Progressive Web App
+## Milestone 6: Tests
+- Set up React testing library
+- Write unit tests for operate.js and calculate.js using Jest
+- Create unit tests for components using Jest Snapshots and React Testing Library
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Built With
+- React, Bootstrap, Webpack, Javascript, React testing library, Babel and Jest
 
-### Advanced Configuration
+## Author
+👤 **Gift Uwhubetine**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- GitHub: [@githubhandle](https://github.com/ghiftee)
+- Twitter: [@twitterhandle](https://twitter.com/i_ghiftee)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/giftuwhubetine)
 
-### Deployment
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Contributions, issues, and feature requests are welcome!
 
-### `npm run build` fails to minify
+Feel free to check the [issues page](../../issues/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
